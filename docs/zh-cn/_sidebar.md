@@ -66,9 +66,7 @@
   - Other
     - [Anchor 锚点](zh-cn/component/anchor)
     - [BackTop 回到顶部](zh-cn/component/backtop)
-    - [ConfigProvider 全局化配置](zh-cn/component/configprovider)
     - [Divider 分割线](zh-cn/component/divider)
-    - [LocaleProvider 国际化](zh-cn/component/localeprovider)
 - 项目发布
   - [版本日志](zh-cn/changelog)
 - 项目开发
