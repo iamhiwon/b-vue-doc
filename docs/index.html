@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8"/>
+    <title>B-Vue</title>
+	<link rel="icon" href="favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="Description"/>
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    
+	<link rel="stylesheet" href="assets/css/vue.css">
+</head>
+<style>
+    table {
+        margin: auto;
+    }
+</style>
+<body>
+
+<div id="app">加载中...</div>
+<script>
+    window.$docsify = {
+        name: 'B-Vue',
+        // 右上角小部件
+        repo: '',
+        //侧边栏，默认_sidebar.md，可自己指定，如：loadSidebar:'_side.md'
+        loadSidebar: true,
+        alias: {
+            //所有目录共用同一个顶部导航
+            '/.*/_navbar.md': '/_navbar.md'
+        },
+        autoHeader: true,
+        // 配置文件配置顶部导航 默认_navbar.md
+        loadNavbar: true,
+        // 激活封面功能-_coverpage.md，可配置多个，只显示封面时，需要单独配置顶部导航，编写代码到body标签内
+        coverpage: true,
+        // 主页仅加载封面，不能滚动到其他页
+        onlyCover: true,
+        // 侧边栏层级
+        subMaxLevel: 4,
+        // 路线更改时滚动到屏幕顶部
+        auto2top: true,
+        // 主页，默认是README.md，也可自己指定
+        homepage: 'README.md',
+        // Navbar将在较小的屏幕上与侧边栏合并
+        mergeNavbar: true,
+        formatUpdated: '{MM}/{DD} {HH}:{mm}',
+        //默认_404.md  可根据层级指定 notFoundPage:{'/':'_404.md','/app':'app/_404.md'}
+        notFoundPage: '_404.md',
+        search: {
+            placeholder: '搜索关键字',
+            noData: '暂无数据',
+            depth: 4,
+        },
+        pagination: {
+            previousText: '上一页',
+            nextText: '下一页'
+        },
+        executeScript: true,
+        themeColor: '#3F51B5'
+    };
+</script>
+<script src="assets/js/docsify.min.js"></script>
+<script src="assets/js/search.min.js"></script>
+<script src="assets/js/zoom-image.min.js"></script>
+
+</body>
+</html>
