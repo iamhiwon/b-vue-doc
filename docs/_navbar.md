@@ -1,7 +1,2 @@
 - [主页](/)
 - [文档](/help/use)
-- 周边生态
-  - [B-Vue](/)
-  - [B-Vue-Chart](/)
-  - [B-Vue-Form](/)
-  - [B-Vue-Pro](/)
