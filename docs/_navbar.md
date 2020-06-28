@@ -5,5 +5,3 @@
   - [B-Vue-Chart](/)
   - [B-Vue-Form](/)
   - [B-Vue-Pro](/)
-- 联系我们
-  - [Email(116268012@qq.com)](/)
